@@ -1,0 +1,204 @@
+@charset "UTF-8";
+body {
+	width: 960px;
+	margin-right: auto;
+	margin-top: 10px;
+	/* [disabled]float: none; */
+	margin-left: auto;
+}
+#main {
+	width: 960px;
+	height: 1141px;
+	text-align: left;
+}
+#head {
+	width: 960px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/bg_img_black50%25.png);
+	margin-bottom: 11px;
+	}
+#head #banner_text {
+	color: #003399;
+	font-size: 25px;
+}
+/* CSS Document */
+#left {
+	width: 320px;
+	float: left;
+	height: 500px;
+}
+.left_box {
+	margin-bottom: 10px;
+	width: 318px;
+}
+#left .left_span {
+	height: 30px;
+	width: 320px;
+	background-color: #A8E9FF;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#main #left #train_plan #tp_ul {
+}
+#left .left_box ul li {
+	list-style-image: none;
+	list-style-type: none;
+	display: block;
+	text-align: left;
+	/* [disabled]text-indent: 30px; */
+	font-size: 15px;
+	color: #333333;
+	height: auto;
+	line-height: 20px;
+	margin-bottom: 9px;
+	width: 270px;
+}
+#right {
+	width: 630px;
+	height: 1200px;
+	margin-left: 10px;
+	float: left;
+}
+.right_box {
+	width: 630px;
+	/* [disabled]background-color: #99CC66; */
+	height: auto;
+}
+.right_box .right_hd {
+	width: 630px;
+	height: 30px;
+	background-color: #A8E9FF;
+	text-indent: 20px;
+	line-height: 30px;
+}
+.right_hd a {
+	font-size: 13px;
+	display: block;
+	width: 75px;
+	float: left;
+	/* [disabled]margin-left: 42px; */
+	text-decoration: none;
+	color: #0066FF;
+}
+.right_box .right_hd_span {
+	height: 30px;
+	display: block;
+	float: left;
+	width: 218px;
+	/* [disabled]margin-left: 26px; */
+	margin-right: 220px;
+	text-align: left;
+}
+.right_box_main {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	color: #666666;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.comment {
+	width: 630px;
+	float: left;
+	margin-right: 0px;
+	height: 330px;
+	display: block;
+	/* [disabled]background-color: #CCCCCC; */
+}
+.radio {
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+.radio_box {
+	float: left;
+	margin-top: -10px;
+}
+
+.teacher_number {
+	color: #000000;
+	font-size: 15px;
+	line-height: 27px;
+	/* [disabled]text-indent: 36px; */
+	/* [disabled]float: left; */
+}
+.standard {
+	background-color: #A8E9FF;
+	width: 615px;
+	height: 20px;
+	display: block;
+	text-align: left;
+}
+
+#right #after_class_comment #acc_main .other {
+	width: 174px;
+	height: 20px;
+	display: block;
+	float: none;
+	clear: both;
+}
+#textarea {
+	width: 300px;
+	height: 100px;
+	float: none;
+	display: block;
+	/* [disabled]margin-top: -16px; */
+}
+.bt {
+	width: 80px;
+	height: 25px;
+	line-height: 20px;
+	float: left;
+	margin-left: 40px;
+}
+#footer {
+	width: 960px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	top: 254px;
+	/* [disabled]background-color: #0099FF; */
+	text-align: center;
+}
+#footer ul   {
+	width: 960px;
+	text-align: center;
+	margin-left: 121px;
+	height: 10px;
+}
+#footer ul #foot_list {
+	width: 80px;
+	height: 10px;
+	display: block;
+	float: left;
+	list-style-type: none;
+	list-style-image: none;
+	font-size: 12px;
+	color: #666666;
+}
+#footer #banquan {
+	text-align: center;
+	clear: both;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 14px;
+	color: #666;
+	margin-top: 7px;
+	height: 10px;
+}
+#acc_hd>.right_hd_span {
+	width: 384px;
+}
+.warn {
+	color: #FF0000;
+	font-size: 14px;
+}
